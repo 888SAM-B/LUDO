@@ -1,0 +1,5 @@
+
+{
+  "name": "React Ludo Game",
+  "description": "A fully functional Ludo game web application built with React, TypeScript, and Tailwind CSS. It supports 2-4 local multiplayer, a simple AI opponent, and features interactive animations for dice rolls and token movements."
+}
