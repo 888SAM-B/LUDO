@@ -15,7 +15,7 @@ export const PlayerInfo: React.FC = () => {
 
   return (
     <div className="w-full lg:w-64 bg-slate-700/50 p-4 rounded-lg shadow-lg flex flex-col gap-4">
-      <h2 className="text-2xl font-bold text-center text-cyan-300 border-b-2 border-cyan-400/30 pb-2">Players</h2>
+      <h2 className="text-2xl font-bold text-center text-cyan-300 border-b-2 border-cyan-400/30 pb-2 fflex-wrap">Players</h2>
       <div className="flex flex-row lg:flex-col gap-3 justify-center fflex-wrap">
         {players.map((player, index) => {
           const isActive = index === currentPlayerIndex;
