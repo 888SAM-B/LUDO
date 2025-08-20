@@ -14,7 +14,7 @@ export const Token: React.FC<TokenProps> = ({ color, onClick, isMovable }) => {
 
   return (
     <div
-      className={`w-full h-full p-1 rounded-full flex items-center justify-center token
+      className={`w-full h-full p-1 rounded-full flex items-center justify-center 
         ${isMovable ? 'cursor-pointer animate-pulse' : ''}`}
       onClick={onClick}
     >

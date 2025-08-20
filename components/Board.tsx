@@ -42,12 +42,12 @@ export const Board: React.FC = () => {
         return (
           <div
             key={token.id}
-            className="absolute transition-all duration-500 ease-in-out token"
+            className="absolute transition-all duration-500 ease-in-out token "
             style={{
               top: `calc(${((gridPos.row - 1) / 15) * 100}% + 2px)`,
               left: `calc(${((gridPos.col - 1) / 15) * 100}% + 2px)`,
-              width: 'calc(100% / 10)',
-              height: 'calc(100% / 10)',
+              width: 'calc(100% / 14.75)',
+              height: 'calc(100% / 14.75)',
             }}
           >
             <TokenComponent
