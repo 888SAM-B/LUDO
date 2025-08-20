@@ -17,6 +17,7 @@
     .fflex-wrap{
         display:flex;
         flex-direction: column;
+        border:1px solid aqua
     } 
     .token{
         width: calc(100% / 14);
