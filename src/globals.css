@@ -15,6 +15,7 @@
 }
 @media screen and (max-width:640px) {
     .fflex-wrap{
+        display:flex;
         flex-direction: column;
         border:1px solid aqua;
     } 
